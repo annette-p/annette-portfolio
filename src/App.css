@@ -33,5 +33,60 @@ p, a {
     /* border-radius: 50%; */
     background-size: cover;
     background-position: top;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.intro-text {
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.h-line {
+    border: none;
+    border-top: 2px dotted black;
+    width: 95%;
+    margin-left: 8px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.sum-text {
+    margin-left: 15px;
+}
+
+/*.................................. for iPad .................................. */
+
+@media (min-width: 768px) {
+
+    /* ...................... Profile summary page ...................... */
+
+    .intro-text {
+        font-size: 21px;
+        margin-top: 23px;
+    }
+
+    #profile-img {
+        margin-left: 10px;
+    }
+
+    .sum-text {
+        margin-left: 0px;
+    }
+
+
+}
+
+
+/*........................................ for laptop ......................................... */
+
+@media (min-width: 992px) {
+
+    /* ...................... Profile summary page ...................... */
+
+    .intro-text {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+
 }
