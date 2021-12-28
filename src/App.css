@@ -66,17 +66,27 @@ p, a {
 
 .vertical-line {
     border-left: 1px solid rgb(170, 51, 8);
-    /* height: 200px; */
-    height: 70vh;
+    height: 1905px;
+    /* height: 100vh; */
     position:absolute;
-    left: 43%;
+    /* left: 43%; */
+    left: 41.3%;
     top: 28%;
 }
 
 .circle-icon {
+    margin-top: 20px;
+    /* margin-left: 30px; */
     margin-left: 29.5px;
     font-size: 20px;
     color: rgb(170, 51, 8);
+}
+
+.country {
+    font-size: 15px;
+    /* font-style: italic; */
+    margin-left: 15px;
+    color: grey;
 }
 
 
