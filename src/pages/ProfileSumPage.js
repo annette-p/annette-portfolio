@@ -10,19 +10,19 @@ export default function ProfileSumPage(){
                         {/* <img src={require('../images/profile/annette-profile.jpg').default} alt="profile"/> */}
                         <div id='profile-img' className='img-fluid'></div>
                         <div className="card-body">
-                            <p className="card-text text-center">
+                            <div className="card-text text-center">
                                 <h5>Entrepreneur</h5>
                                 <h5>Product Management</h5>
                                 <h5>Software Development</h5>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <hr className='d-block d-md-none h-line'></hr>
                 <div className='col sum-text'>
                     <h2 className='mt-1 mt-lg-5'>Hi, I'm Annette</h2>
-                    <p className='intro-text'>I am entreprennuer, product innovator and software developer.</p>
-                    <p className='intro-text'>
+                    <p className='intro-text'>I am entrepreneur, product innovator and software developer.</p>
+                    <p className='intro-text mb-4'>
                         I have strong passion about business, user experience and technology. Building innovative products and applications that help streamline business, user-friendly product solutions, keep track of industry trends and emerging technologies. 
                     </p>
                 </div>

@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from 'react-bootstrap'
 import { Container } from 'react-bootstrap'
 import ProfileSumPage from './ProfileSumPage'
+import ExperiencePage from './ExperiencePage'
 
 export default function MainPage(){
     return (
@@ -22,7 +23,9 @@ export default function MainPage(){
                                 {/* <Nav.Link href="#action1">Home</Nav.Link> */}
                             </Nav>
                                 <div className='row'>
-                                    <div className='col-4 col-md'>Experiences</div>
+                                    <a href="/experiences" className='col-4 col-md underline-remove'>
+                                        Experiences
+                                    </a>
                                     <div className='col-4 col-md'>Projects</div>
                                     <div className='col-4 col-md'>Businesses</div>
                                     <div className='col-4 col-md'>Education</div>
@@ -39,6 +42,9 @@ export default function MainPage(){
                     <Switch> 
                         <Route exact path="/">
                             <ProfileSumPage/>
+                        </Route> 
+                        <Route exact path="/experiences">
+                            <ExperiencePage/>
                         </Route> 
                     </Switch>
                 </Router>
