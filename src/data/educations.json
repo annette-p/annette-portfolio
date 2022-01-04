@@ -1,0 +1,81 @@
+[
+    {
+        "course": "Diploma in Web Application Development",
+        "institution": "Trent Global College",
+        "country": "Singapore",
+        "start": "08/2021",
+        "end": "12/2021",
+        "modules": [
+            "Frontend fundamentals",
+            "Python fundamentals",
+            "Frontend development",
+            "Database design and development", 
+            "Backend development",
+            "Modern frontend framework",
+            "Modern backend framework",
+            "Java"
+        ],
+        "details":{
+            "Programing Languages": "Bootstrap, HTML, CSS, Javascript, NodeJS, VueJS, ReactJS, NestJS, Express, Python, Java",
+            "Frontend": "UI, UX, API Integration",
+            "Database and backend": "MySQL, MongoDB, ORM, Mongoose, API, Authentication, Configuration Management"
+        }
+    }, 
+    {
+        "course": "Professional Diploma in Innovation Management",
+        "institution": "Lithan Academy",
+        "country": "Singapore",
+        "start": "09/2020",
+        "end": "03/2021",
+        "modules": [
+            "Agile Venture Creation, Agile Project Management (Agile, Scrum, Lean, Sprint, MVP and prototype using wireframe)",
+            "Innovation Design Thinking",
+            "Product Management (Product development, product roadmap, Prioritization, product backlog, user story)",
+            "Agile Leadership & Management (KVI, Impact Ladder, Ownership model, Freedom matrix, T2L, Validated Learning Board, TO-GRIP pattern, Habit matrix)", 
+            "Digital Innovation & Technologies, Digital Technology Implementation",
+            "Data Queries and Visualization (Power BI, SQL)"
+        ],
+        "details":{
+            "NICF Certifications": "Product Management, Business Innovation, Programme Management, Business Development, Change management, Emerging Technology Synthesis, Data Design, Data Visualization"
+        }
+    },
+    {
+        "course": "Diploma in Fashion Technology (Apparel Design & Product Development)",
+        "institution": "TaF.tc",
+        "country": "Singapore",
+        "start": "08/2016",
+        "end": "11/2016",
+        "modules": [
+            "Develop Design Collection",
+            "Conduct Fit Evaluation & Pattern Atleration",
+            "Manage Quality Assurance in Textile & Fashion Industry",
+            "Develop Apparel Patterns",
+            "Support Apparel Product Development",
+            "Create and Manage Fashion Brand",
+            "Interpret and Draw Production Sketches",
+            "Fashion Retail Merchandise for Textile & Fashion Industry",
+            "Draw Degital Images",
+            "Analyze Garment Construction",
+            "Interpret Pattern Draft and Sewing Sequence",
+            "Analyze Textiles and Process"
+        ],
+        "details":{
+            "Certifications": ""
+        }
+    },
+    {
+        "course": "Bachelor of Business Administration with Honours (International Program)",
+        "institution": "Prince of Songkla University",
+        "country": "Thailand",
+        "start": "06/2004",
+        "end": "03/2008",
+        "modules": [
+            "General business management, Operations Controls, Marketing, Mathematics, Accounting, Business Finance, Statistics, Law, Human Resouces, Psychology",
+            "Practical Training: total 1,600 HOURS"
+        ],
+        "details":{
+            "GPA": "3.38/4 (Second Upper Class Honors)"
+        }
+    }
+ 
+]

@@ -5,6 +5,7 @@ import { Nav } from 'react-bootstrap'
 import { Container } from 'react-bootstrap'
 import ProfileSumPage from './ProfileSumPage'
 import ExperiencePage from './ExperiencePage'
+import EducationPage from './EducationPage'
 
 export default function MainPage(){
     return (
@@ -28,10 +29,13 @@ export default function MainPage(){
                                     </a>
                                     <div className='col-4 col-md'>Projects</div>
                                     <div className='col-4 col-md'>Businesses</div>
-                                    <div className='col-4 col-md'>Education</div>
+                                    <a href="/educations" className='col-4 col-md underline-remove'>
+                                        Education
+                                    </a>
                                     <div className='col-4 col-md'>Skills</div>
                                     <div className='col-4 col-md'>Article</div>
-                                    <div className='col-4 col-md'>YouTube</div>
+                                    {/* <div className='col-4 col-md'>YouTube</div> */}
+                                    {/* <div className='col-4 col-md'>Podcast</div> */}
                                     <div className='col-4 col-md'>Contact</div>
                                 </div>
                             </Navbar.Collapse>
@@ -45,6 +49,9 @@ export default function MainPage(){
                         </Route> 
                         <Route exact path="/experiences">
                             <ExperiencePage/>
+                        </Route> 
+                        <Route exact path="/educations">
+                            <EducationPage/>
                         </Route> 
                     </Switch>
                 </Router>
