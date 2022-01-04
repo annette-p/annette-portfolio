@@ -25,14 +25,19 @@ export default function EducationPage(){
                                     <h5>{education.institution} 
                                         <span className='country'>({education.country})</span>
                                     </h5>
-                                    <div className='mt-3 fw-bold'>Modules</div>
-                                    <ul>
-                                        {education.modules.map ((module, moduleIndex) => {
-                                            return (
-                                                <li key={moduleIndex}>{module}</li>
-                                            )
-                                        })} 
-                                    </ul> 
+                                    {education.hasOwnProperty("modules") ? 
+                                        <div>
+                                            <div className='mt-3 fw-bold'>Modules</div>
+                                            <ul>
+                                                {education.modules.map ((module, moduleIndex) => {
+                                                    return (
+                                                        <li key={moduleIndex}>{module}</li>
+                                                    )
+                                                })} 
+                                            </ul>
+                                        </div> 
+                                    : null}
+                                     
                                     {/* https://stackoverflow.com/a/5737136 */}
                                     {Object.keys(education.details).map((key, detailIndex) => {
                                         return (
@@ -42,7 +47,6 @@ export default function EducationPage(){
                                             </div>
                                         )
                                     })}
-                                    
                                 </div>
                             </div>
                             <hr className='d-block d-md-none experiences-hline'></hr>

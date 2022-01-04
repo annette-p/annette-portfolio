@@ -59,9 +59,7 @@
             "Interpret Pattern Draft and Sewing Sequence",
             "Analyze Textiles and Process"
         ],
-        "details":{
-            "Certifications": ""
-        }
+        "details":{}
     },
     {
         "course": "Bachelor of Business Administration with Honours (International Program)",
@@ -69,10 +67,6 @@
         "country": "Thailand",
         "start": "06/2004",
         "end": "03/2008",
-        "modules": [
-            "General business management, Operations Controls, Marketing, Mathematics, Accounting, Business Finance, Statistics, Law, Human Resouces, Psychology",
-            "Practical Training: total 1,600 HOURS"
-        ],
         "details":{
             "GPA": "3.38/4 (Second Upper Class Honors)"
         }
