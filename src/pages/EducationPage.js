@@ -21,7 +21,7 @@ export default function EducationPage(){
                                 <FontAwesomeIcon icon={faCircle} className="circle-icon"/>
                             </div>
                             <div className="col">
-                                <div className="mt-3 mt-md-0 p-0 p-md-3 me-0 me-lg-4">
+                                <div className="mb-1 mt-3 mt-md-0 p-0 p-md-3 me-0 me-lg-4">
                                     <h5>{education.institution} 
                                         <span className='country'>({education.country})</span>
                                     </h5>
@@ -53,7 +53,7 @@ export default function EducationPage(){
                         </div>
                     )
                 })}
-                <div className='vertical-line experiences-hline'></div>
+                <div className='edu-vertical-line experiences-hline'></div>
             </div>
 
         </React.Fragment>
